@@ -1,0 +1,57 @@
+# Based on example from
+# https://github.com/NiklasMerz/netlify-analytics-collector/tree/main/.github/workflows
+name: Daily run
+
+on:
+  schedule:
+    - cron:  '55 23 * * *'
+  workflow_dispatch:
+    
+
+jobs:
+  export-run:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: niklasmerz/netlify-analytics-collector@1.0.0
+      with:
+        netlify-token: ${{ secrets.NETLIFY_TOKEN }}
+        netlify-site-id: ${{ secrets.NETLIFY_SITE }}
+    - uses: actions/upload-artifact@v2
+      with:
+        name: exports
+        path: '*.csv'
+  sheet-upload:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: niklasmerz/netlify-analytics-collector@1.0.0
+      with:
+        netlify-token: ${{ secrets.NETLIFY_TOKEN }}
+        netlify-site-id: ${{ secrets.NETLIFY_SITE }}
+        days: -1
+        disable-header: true
+    #- uses: niklasmerz/csv-to-google-spreadsheet@master
+    #  with:
+    #    csv_path: pageviews.csv
+    #    spreadsheet_id: ${{ secrets.google_spreadsheet_id }}
+    #    worksheet: 0
+    #    append_content: true
+    #    google_service_account_email: ${{ secrets.google_service_account_email }}
+    #    google_service_account_private_key: ${{ secrets.google_service_account_private_key }}
+    #- uses: niklasmerz/csv-to-google-spreadsheet@master
+    #  with:
+    #    csv_path: visitors.csv
+    #    spreadsheet_id: ${{ secrets.google_spreadsheet_id }}
+    #    worksheet: 1
+    #    append_content: true
+    #    google_service_account_email: ${{ secrets.google_service_account_email }}
+    #    google_service_account_private_key: ${{ secrets.google_service_account_private_key }}
+    #- uses: niklasmerz/csv-to-google-spreadsheet@master
+    #  with:
+    #    csv_path: bandwidth.csv
+    #    spreadsheet_id: ${{ secrets.google_spreadsheet_id }}
+    #    worksheet: 2
+    #    append_content: true
+    #    google_service_account_email: ${{ secrets.google_service_account_email }}
+    #    google_service_account_private_key: ${{ secrets.google_service_account_private_key }}
