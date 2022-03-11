@@ -12,7 +12,7 @@ jobs:
   export-run:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
     - uses: niklasmerz/netlify-analytics-collector@1.0.0
       with:
         netlify-token: ${{ secrets.NETLIFY_TOKEN }}
