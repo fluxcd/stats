@@ -1,6 +1,6 @@
 # Based on example from
 # https://github.com/NiklasMerz/netlify-analytics-collector/tree/main/.github/workflows
-name: Daily run
+name: Netlify - Daily run
 
 on:
   schedule:

@@ -1,6 +1,6 @@
 # Based on example from
 # https://github.com/NiklasMerz/netlify-analytics-collector/tree/main/.github/workflows
-name: Monthly run
+name: Netlify - Monthly run
 
 on:
   schedule:
