@@ -38,7 +38,7 @@ jobs:
       with:
         add: 'exports/*.csv'
         message: "[ci skip] fluxcd.io stats from netlify-analytics"
-        signoff: true
+        #signoff: true
         #new_branch: netlify-stats
     #- uses: niklasmerz/csv-to-google-spreadsheet@master
     #  with:
