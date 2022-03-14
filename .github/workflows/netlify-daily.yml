@@ -46,6 +46,9 @@ jobs:
         spreadsheet_id: ${{ secrets.google_spreadsheet_id }}
         worksheet: 0
         append_content: true
+          # The credential is from the "kingdon-flux-netlify-exporter" account in dx-kingdon project
+          # that is also known as: 'kingdon-flux-netlify-exporter@dx-kingdon.iam.gserviceaccount.com'
+          # (It has no permissions except that it has been shared the doc above, with editor access.)
         google_service_account_email: ${{ secrets.google_service_account_email }}
         google_service_account_private_key: ${{ secrets.google_service_account_private_key }}
     - uses: niklasmerz/csv-to-google-spreadsheet@master
