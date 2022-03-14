@@ -36,7 +36,7 @@ jobs:
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
       with:
-        add: 'exports/*.csv'
+        add: '*.csv'
         message: "[ci skip] fluxcd.io stats from netlify-analytics"
         #signoff: true
         #new_branch: netlify-stats
