@@ -25,12 +25,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+      with:
+        ref: netlify-stats
     - uses: niklasmerz/netlify-analytics-collector@v2.0.0
       with:
         netlify-token: ${{ secrets.NETLIFY_TOKEN }}
         netlify-site-id: ${{ secrets.NETLIFY_SITE }}
         days: -1
         disable-header: true
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v9
+      with:
+        add: 'exports/*.csv'
+        message: "[ci skip] fluxcd.io stats from netlify-analytics"
+        signoff: true
+        #new_branch: netlify-stats
     #- uses: niklasmerz/csv-to-google-spreadsheet@master
     #  with:
     #    csv_path: pageviews.csv
