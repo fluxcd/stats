@@ -40,7 +40,7 @@ jobs:
         message: "[ci skip] fluxcd.io stats from netlify-analytics"
         #signoff: true
         #new_branch: netlify-stats
-    - uses: niklasmerz/csv-to-google-spreadsheet@master
+    - uses: kingdonb/csv-to-google-spreadsheet@1.0.1
       with:
         csv_path: pageviews.csv
         spreadsheet_id: ${{ secrets.google_spreadsheet_id }}
@@ -51,7 +51,7 @@ jobs:
           # (It has no permissions except that it has been shared the doc above, with editor access.)
         google_service_account_email: ${{ secrets.google_service_account_email }}
         google_service_account_private_key: ${{ secrets.google_service_account_private_key }}
-    - uses: niklasmerz/csv-to-google-spreadsheet@master
+    - uses: kingdonb/csv-to-google-spreadsheet@1.0.1
       with:
         csv_path: visitors.csv
         spreadsheet_id: ${{ secrets.google_spreadsheet_id }}
@@ -59,7 +59,7 @@ jobs:
         append_content: true
         google_service_account_email: ${{ secrets.google_service_account_email }}
         google_service_account_private_key: ${{ secrets.google_service_account_private_key }}
-    - uses: niklasmerz/csv-to-google-spreadsheet@master
+    - uses: kingdonb/csv-to-google-spreadsheet@1.0.1
       with:
         csv_path: bandwidth.csv
         spreadsheet_id: ${{ secrets.google_spreadsheet_id }}
