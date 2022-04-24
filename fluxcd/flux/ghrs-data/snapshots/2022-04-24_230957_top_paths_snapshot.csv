@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/fluxcd/flux,2349,1618
+/fluxcd/flux/releases,476,296
+/fluxcd/flux/issues,275,101
+/fluxcd/flux/issues/1071,163,135
+/fluxcd/flux/search,153,55
+/fluxcd/flux/tree/master/chart/flux,137,87
+/fluxcd/flux/blob/master/chart/flux/README.md,117,90
+/fluxcd/flux/issues/3582,113,101
+/fluxcd/flux/tags,108,26
+/fluxcd/flux/issues/3050,93,69
