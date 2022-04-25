@@ -1,0 +1,6 @@
+ruby '2.7.6'
+source 'https://rubygems.org'
+
+gem 'awesome_print', require: 'ap'
+gem 'activesupport'
+gem 'pry'
