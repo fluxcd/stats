@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/fluxcd/flux2,3450,1992
+/fluxcd/flux2/releases,1164,561
+/fluxcd/flux2/issues,551,228
+/fluxcd/flux2/issues/2817,507,412
+/fluxcd/flux2/search,424,117
+/fluxcd/flux2/releases/tag/v0.36.0,365,278
+/fluxcd/flux2/tree/main/manifests,264,129
+/fluxcd/flux2/tree/main/manifests/monitoring/monitoring-config,262,100
+/fluxcd/flux2/tree/main/manifests/monitoring/kube-prometheus-stack,254,84
+/fluxcd/flux2/discussions/2505,238,182
