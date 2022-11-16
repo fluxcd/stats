@@ -13,7 +13,6 @@ jobs:
       matrix:
         statsRepo:
         - fluxcd/flux2
-        - fluxcd/flux
         - fluxcd/flagger
       fail-fast: false
       max-parallel: 1
