@@ -9,6 +9,8 @@ on:
 jobs:
   j1:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     strategy:
       matrix:
         statsRepo:
@@ -21,4 +23,4 @@ jobs:
         uses: jgehrcke/github-repo-stats@v1.4.2
         with:
           repository: ${{ matrix.statsRepo }}
-          ghtoken: ${{ secrets.BOT_GITHUB_TOKEN }}
+          ghtoken: ${{ secrets.GITHUB_TOKEN }}
