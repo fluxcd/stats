@@ -11,6 +11,8 @@ on:
 jobs:
   export-run:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v3
     - uses: niklasmerz/netlify-analytics-collector@v2.0.0
