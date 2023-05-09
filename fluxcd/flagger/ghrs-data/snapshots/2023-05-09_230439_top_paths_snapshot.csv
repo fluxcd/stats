@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/fluxcd/flagger,957,590
+/fluxcd/flagger/issues,170,46
+/fluxcd/flagger/tree/main/charts/flagger,110,24
+/fluxcd/flagger/search,96,21
+/fluxcd/flagger/tree/main/pkg,87,29
+/fluxcd/flagger/tree/main/kustomize,86,28
+/fluxcd/flagger/tree/main/charts,73,27
+/fluxcd/flagger/blob/main/CHANGELOG.md,61,34
+/fluxcd/flagger/pull/1417,56,10
+/fluxcd/flagger/blob/main/docs/gitbook/tutorials/canary-helm-gitops.md,54,20
