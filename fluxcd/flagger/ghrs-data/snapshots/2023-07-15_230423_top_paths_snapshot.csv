@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/fluxcd/flagger,1079,679
+/fluxcd/flagger/tree/main/kustomize,203,51
+/fluxcd/flagger/tree/main/charts,189,44
+/fluxcd/flagger/tree/main/pkg,188,36
+/fluxcd/flagger/tree/main/charts/flagger,165,39
+/fluxcd/flagger/issues,163,59
+/fluxcd/flagger/blob/main/CHANGELOG.md,139,46
+/fluxcd/flagger/tree/main/kustomize/podinfo,130,23
+/fluxcd/flagger/tree/main/kustomize/tester,91,16
+/fluxcd/flagger/blob/main/docs/gitbook/tutorials/canary-helm-gitops.md,87,29
