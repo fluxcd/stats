@@ -14,7 +14,7 @@ jobs:
     permissions:
       contents: write
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: niklasmerz/netlify-analytics-collector@v2.0.0
       with:
         netlify-token: ${{ secrets.NETLIFY_TOKEN }}
