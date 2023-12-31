@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/fluxcd/flagger,754,504
+/fluxcd/flagger/tree/main/kustomize,141,35
+/fluxcd/flagger/issues,122,36
+/fluxcd/flagger/tree/main/kustomize/podinfo,120,26
+/fluxcd/flagger/blob/main/kustomize/podinfo/deployment.yaml,88,23
+/fluxcd/flagger/blob/main/CHANGELOG.md,76,24
+/fluxcd/flagger/tree/main/charts,67,21
+/fluxcd/flagger/tree/main/charts/flagger,58,17
+/fluxcd/flagger/tree/main/pkg,54,13
+/fluxcd/flagger/releases,48,13
