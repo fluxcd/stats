@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/fluxcd/flagger,1038,663
+/fluxcd/flagger/issues,198,57
+/fluxcd/flagger/blob/main/CHANGELOG.md,183,54
+/fluxcd/flagger/tree/main/charts/flagger,136,37
+/fluxcd/flagger/tree/main/charts,124,37
+/fluxcd/flagger/tree/main/kustomize,91,27
+/fluxcd/flagger/tree/main/pkg,86,26
+/fluxcd/flagger/blob/main/charts/flagger/values.yaml,78,25
+/fluxcd/flagger/blob/main/pkg/loadtester/server.go,75,7
+/fluxcd/flagger/blob/main/pkg/controller/scheduler.go,60,11
