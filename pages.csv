@@ -1,10 +1,10 @@
-/,6922
-/flux/,1299
-/blog/2024/05/flux-v2.3.0/,786
+/,6929
+/flux/,1300
+/blog/2024/05/flux-v2.3.0/,787
 /flux/guides/mozilla-sops/,749
 /flux/installation/,663
-/flux/components/helm/helmreleases/,632
-/flux/components/kustomize/kustomizations/,626
+/flux/components/helm/helmreleases/,633
+/flux/components/kustomize/kustomizations/,627
 /flux/components/image/,547
-/flux/get-started/,521
+/flux/get-started/,522
 /flux/cheatsheets/troubleshooting/,508
