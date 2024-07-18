@@ -1,9 +1,9 @@
-/,8553
+/,8555
 /flux/,1243
 /flux/guides/mozilla-sops/,766
-/flux/components/kustomize/kustomizations/,759
+/flux/components/kustomize/kustomizations/,760
 /flux/components/helm/helmreleases/,664
-/flux/installation/,619
+/flux/installation/,620
 /flux/components/image/,557
 /flux/get-started/,552
 /flux/guides/helmreleases/,477
