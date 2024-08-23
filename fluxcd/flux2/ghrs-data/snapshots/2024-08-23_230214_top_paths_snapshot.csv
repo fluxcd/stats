@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/fluxcd/flux2,6147,4901
+/fluxcd/flux2/releases,1632,991
+/fluxcd/flux2/issues,579,256
+/fluxcd/flux2/releases/tag/v2.3.0,312,237
+/fluxcd/flux2/discussions/4179,275,212
+/fluxcd/flux2/tree/main/cmd/flux,208,77
+/fluxcd/flux2/tree/main/install,204,80
+/fluxcd/flux2/discussions/2505,191,164
+/fluxcd/flux2/tree/main/manifests,188,61
+/fluxcd/flux2/tags,163,70
