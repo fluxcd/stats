@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/fluxcd/flagger,947,621
+/fluxcd/flagger/issues,131,43
+/fluxcd/flagger/blob/main/CHANGELOG.md,92,59
+/fluxcd/flagger/pulls,90,25
+/fluxcd/flagger/blob/main/charts/flagger/values.yaml,73,36
+/fluxcd/flagger/releases,60,35
+/fluxcd/flagger/tree/main/charts,54,36
+/fluxcd/flagger/pull/1733,46,27
+/fluxcd/flagger/tree/main,44,27
+/fluxcd/flagger/tree/main/charts/flagger,43,28
