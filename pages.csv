@@ -1,10 +1,10 @@
-/,8070
+/,8074
 /flux/,1346
 /flux/components/helm/helmreleases/,799
-/flux/installation/,713
+/flux/installation/,714
 /flux/components/kustomize/kustomizations/,692
 /flux/guides/mozilla-sops/,653
-/flux/get-started/,583
+/flux/get-started/,584
 /flux/guides/helmreleases/,498
 /flux/components/image/,493
 /flux/guides/image-update/,413
