@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/fluxcd/flagger,823,545
+/fluxcd/flagger/blob/main/CHANGELOG.md,112,67
+/fluxcd/flagger/issues,97,38
+/fluxcd/flagger/pulls,81,25
+/fluxcd/flagger/releases,49,33
+/fluxcd/flagger/blob/main/charts/flagger/values.yaml,47,20
+/fluxcd/flagger/pull/1789,34,3
+/fluxcd/flagger/tree/main/charts,33,21
+/fluxcd/flagger/blob/main/pkg/controller/scheduler.go,33,6
+/fluxcd/flagger/releases/tag/v1.41.0,28,20
