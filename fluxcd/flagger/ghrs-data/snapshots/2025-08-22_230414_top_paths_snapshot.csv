@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/fluxcd/flagger,209,165
+/fluxcd/flagger/tree/main/kustomize,25,9
+/fluxcd/flagger/releases,16,9
+/fluxcd/flagger/tree/main/kustomize/podinfo,16,5
+/fluxcd/flagger/pulls,14,5
+/fluxcd/flagger/tree/main/charts,11,10
+/fluxcd/flagger/tree/main/charts/flagger,11,8
+/fluxcd/flagger/blob/main/artifacts/flagger/crd.yaml,11,6
+/fluxcd/flagger/blob/main/kustomize/podinfo/deployment.yaml,11,6
+/fluxcd/flagger/blob/main/pkg/metrics/providers/prometheus.go,10,5
