@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/fluxcd/flagger,57,50
+/fluxcd/flagger/releases,9,2
+/fluxcd/flagger/blob/main/artifacts/flagger/crd.yaml,6,4
+/fluxcd/flagger/tree/main/charts/grafana/dashboards,6,1
+/fluxcd/flagger/tree/main/kustomize,5,5
+/fluxcd/flagger/blob/main/CHANGELOG.md,4,3
+/fluxcd/flagger/blob/main/charts/grafana/dashboards/istio.json,4,3
+/fluxcd/flagger/blob/main/kustomize/istio/kustomization.yaml,4,3
+/fluxcd/flagger/issues/1632,4,2
+/fluxcd/flagger/blob/main/charts/grafana/dashboards/appmesh.json,4,1
