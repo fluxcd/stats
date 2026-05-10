@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/fluxcd/flagger,478,342
+/fluxcd/flagger/issues,64,34
+/fluxcd/flagger/pulls,52,27
+/fluxcd/flagger/blob/main/CHANGELOG.md,44,22
+/fluxcd/flagger/pull/1907,34,4
+/fluxcd/flagger/releases,26,14
+/fluxcd/flagger/releases/tag/v1.43.0,20,10
+/fluxcd/flagger/blob/main/charts/flagger/values.yaml,19,16
+/fluxcd/flagger/blob/main/pkg/canary/deployment_controller.go,13,7
+/fluxcd/flagger/pull/1863,12,11
