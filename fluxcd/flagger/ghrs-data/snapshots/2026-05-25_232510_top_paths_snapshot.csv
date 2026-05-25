@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/fluxcd/flagger,355,264
+/fluxcd/flagger/issues,46,21
+/fluxcd/flagger/blob/main/CHANGELOG.md,32,18
+/fluxcd/flagger/pulls,24,15
+/fluxcd/flagger/releases,18,16
+/fluxcd/flagger/releases/tag/v1.43.0,15,13
+/fluxcd/flagger/tree/main/charts/flagger,11,9
+/fluxcd/flagger/blob/main/Dockerfile.loadtester,10,3
+/fluxcd/flagger/tree/main/charts,9,9
+/fluxcd/flagger/tree/main/pkg,9,8
