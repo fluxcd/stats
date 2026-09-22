@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/fluxcd/flagger,541,340
+/fluxcd/flagger/issues,56,25
+/fluxcd/flagger/blob/main/CHANGELOG.md,49,29
+/fluxcd/flagger/pulls,44,14
+/fluxcd/flagger/releases,41,25
+/fluxcd/flagger/pull/1970,20,3
+/fluxcd/flagger/tree/c781cdc199d44cf84e21e90aedd8ff14c1df450e/pkg/loadtester,14,9
+/fluxcd/flagger/pull/1907,14,6
+/fluxcd/flagger/releases/tag/v1.45.0,13,11
+/fluxcd/flagger/tree/main/charts,13,10
