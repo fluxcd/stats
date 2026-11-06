@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/fluxcd/flagger,424,280
+/fluxcd/flagger/issues,104,41
+/fluxcd/flagger/pulls,68,25
+/fluxcd/flagger/blob/main/CHANGELOG.md,30,19
+/fluxcd/flagger/releases,27,22
+/fluxcd/flagger/issues/1663,18,17
+/fluxcd/flagger/issues/1956,18,6
+/fluxcd/flagger/blob/83bab683/README.md,16,16
+/fluxcd/flagger/issues/1932,13,12
+/fluxcd/flagger/blob/main/kustomize/tester/service.yaml,13,1
